@@ -49,3 +49,66 @@ fun main() {
     
 }
 //----------------------------------------
+
+
+
+fun main() {
+     // Concatenação
+     //
+     //
+     /*
+     var tartaruga = "Michael Havckson"    
+    
+    println("O nome da tartaruga do Kilyan Mbappé é $tartaruga")
+    println("O nome da tartaruga do Kilyan mbappé é " + tartaruga)
+    
+    var leclerc = 2
+    var alonso = 1
+    
+    println(" A posição do Lek Lek + a posição do Alonso são ${(leclerc + alonso)}")
+    println(" A posição do Lek Lek + a posição do Alonso são " + (leclerc + alonso))
+    
+    
+    var nome = "Larissa"
+    var idade = 14
+    var cidade = "São Paulo"
+    
+    println("O meu nome é $nome, eu tenho $idade anos e moro em $cidade")
+    */
+    // Exercício - Faça um diálogo de no mínimo 15 linhas, nele deve conter, os nomes de quem estão falando de forma concatenada usando variáveis
+    // Usem criatividade
+    //
+    //
+    
+    var nome1 = "Mãe"
+    var nome2 = "Creusa"
+    var nome3 = "Pai"
+    var nome4 = "junin do Grau"
+    
+   println("$nome2 - $nome1, eu posso ir na formatura da escola?")
+   println("$nome1 - não.")
+   println("$nome2 - Por que?")
+   println("$nome1 - Porque seu pai não dixou")
+   println("$nome2 - Como ele não dixou se eu perguntei agora para você?")
+   println("$nome1 - Então pergunte para ele, e você vai ver que ele não vai deixar")
+   println("$nome2 - Eu vou agora mesmo, até porquê não tem como saber sem perguntar.")
+   
+   println("$nome2 vai para a sala")
+   
+   println("$nome2 - $nome3, eu posso ir na formatura da escola?")
+   println("$nome3 - Vai ter que pagar alguma coisa?")
+   println("$nome2 - O senhor é muito mão de vaca sabia?")
+   println("$nome3 - Tanto faz, mas você ainda não respondeu minha pergunta.")
+   
+   println("$nome2 - Pensamento:Bom... tem que pagar a entrada, mas eu acho que consigo dar um geito")
+   
+   println("$nome2 - Não.")
+   println("$nome3 - Então pode ir.")
+   println("$nome2 - Eba! obrigada $nome3")
+   println("$nome3 - Avise sua $nome1")
+   println("$nome2 - certo.")
+ 
+ 
+
+}
+//-------------------------------------------------------------------------------------------------------------
