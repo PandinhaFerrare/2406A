@@ -112,3 +112,64 @@ fun main() {
 
 }
 //-------------------------------------------------------------------------------------------------------------
+ fun main() {
+    // Exercício - Faça um diálogo de no mínimo 15 linhas, nele deve conter, os nomes de quem estão falando de forma concatenada usando variáveis
+    // Usem criatividade
+    //
+    //
+    
+    var nome1 = "Mãe"
+    var nome2 = "Creusa"
+    var nome3 = "Pai"
+    var nome4 = "junin do Grau"
+    
+   println("$nome2 - $nome1, eu posso ir na formatura da escola?")
+   println("$nome1 - não.")
+   println("$nome2 - Por que?")
+   println("$nome1 - Porque seu pai não dixou")
+   println("$nome2 - Como ele não dixou se eu perguntei agora para você?")
+   println("$nome1 - Então pergunte para ele, e você vai ver que ele não vai deixar")
+   println("$nome2 - Eu vou agora mesmo, até porquê não tem como saber sem perguntar.")
+   
+   println("$nome2 vai para a sala")
+   
+   println("$nome2 - $nome3, eu posso ir na formatura da escola?")
+   println("$nome3 - Vai ter que pagar alguma coisa?")
+   println("$nome2 - O senhor é muito mão de vaca sabia?")
+   println("$nome3 - Tanto faz, mas você ainda não respondeu minha pergunta.")
+   
+   println("$nome2 - Pensamento:Bom... tem que pagar a entrada, mas eu acho que consigo dar um geito")
+   
+   println("$nome2 - Não.")
+   println("$nome3 - Então pode ir.")
+   println("$nome2 - Eba! obrigada $nome3")
+   println("$nome3 - Avise sua $nome1")
+   println("$nome2 - certo.")
+   
+   println("$nome2 vai para acozinha")
+   
+   println("$nome2 - $nome1 meu pai deixo, você só tem que pagar a entrada")
+   println("$nome1 - certo, agora me diga uma coisa...por quê que... Eu que tenho que pagar?!")
+   println("$nome2 - Não sei... você que se resolva com ele.")
+   println("$nome2 - Bom, agora eu vou sair")
+   println("$nome1 - Certo, se cuida")
+   
+   
+   println("$nome2 sai de casa para a rua")
+   
+   println("$nome2 - Eai $nome4!")
+   println("$nome4 - Opa, eai!")
+   println("$nome2 - Consegui! Eu vou para a formatura")
+   println("$nome4 - Brincou!, você conseguiu falar com seus pais?")
+   println("$nome2 - Sim, vomos curtir muito")
+   println("$nome4 - Demorou!")
+   println("$nome2 - Você sabe que horas começa o baile de formatura?")
+   println("$nome4 - Começa às 22:00")
+   println("$nome2 - Agora são 18:00... Bom, eu vou para casa para me arumar e,te encontro no baile")
+   println("$nome4 - Beleza, então agente se encontra mais tarde, tchau $nome2")
+   println("$nome2 - Tchau!")
+   
+   // Eu fiz uma coisa simples... por preguiça, e também estou com muito sono. Não sei por quê eu comentei isso, mas vida que segue né.
+   
+ }
+//---------------------------------------------------------------------------------------------------------------------------------------
