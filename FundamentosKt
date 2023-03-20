@@ -169,7 +169,7 @@ fun main() {
    println("$nome4 - Beleza, então agente se encontra mais tarde, tchau $nome2")
    println("$nome2 - Tchau!")
    
-   // Eu fiz uma coisa simples... por preguiça, e também estou com muito sono. Não sei por quê eu comentei isso, mas vida que segue né.
+   // Eu fiz uma coisa simples... por preguiça.
    
  }
-//---------------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------
