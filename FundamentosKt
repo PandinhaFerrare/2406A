@@ -173,3 +173,54 @@ fun main() {
    
  }
 //------------------------------------------------------------------------------------------------------------
+
+fun main() {
+    
+    //Operadores Matemáticos
+    
+    //  + -> Adição
+    //  - -> subtração
+    //  / -> divisão
+    //  * -> multiplicação
+    //  % -> módulo - resto da divisão
+    
+    /*
+    var halls = 7
+    var freegells = 6
+    
+    println(halls % freegells)
+    */
+    
+    // EXERCÍCIO - Faça uma calculadora que contnha cada um dos calculos matemáticos
+    // como resultado do cálculo de duas variáveis (contendo resultado para +, -, /, *, e %),
+    // conrsndo também uma interface simples e bem bonita
+    // 
+    // 
+    // 
+    // 
+    println(" * Minha Calculadora * ")
+    println(" --------------------- ") 
+    println(" Soma entre as idades de Ana e Matheus:")
+    println(" Resultado:")
+    println("     5 - 4 = 1         ")
+    println("     81 / 9 = 9        ")
+    println("     7 * 3 = 21        ")
+    println("     12 % 12 = 0       ")
+    
+    var Ana = 8
+    var Matheus = 16
+    
+    var Maçã = 5
+    var Laranja = 4 
+    
+    var Madeira = 81
+    var Pregos = 9
+    
+    var Folhas = 7
+    var Canetas = 3
+    
+    var balas = 12
+    var Pessoas = 12
+        
+}
+//-----------------------------------------------------------------------
