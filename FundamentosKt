@@ -291,4 +291,76 @@ fun main() {
   }
   //---------------------------------------------------
   
+  fun main() {
+   
+  /*
+  // Operadores Relacionais
+  // 
+  // == -> igual a...
+  // != -> diferente de...
+  // !  -> negando valor
+  // >  -> maior que...
+  // <  -> menor que...
+  // >= -> maior ou igual a...
+  // <= -> menor ou igual a...
+  // 
+  // 
+  // ++ -> adiciona 1 a um valor
+  // -- -> sudtrai 1 de um valor
+  // += -> adicina um determinado valor a um valor
+  // -= -> subtrai um determinado valor de um valor
   
+  var clauldetty = 50
+  var josias = 30
+  var berrenice = 90
+  var bernnadetthy = 80
+  
+  println(clauldetty)
+  clauldetty++
+  println(clauldetty)
+  println("")
+  println(josias)
+  josias--
+  println(josias)
+  println("")
+  println(berrenice)
+  berrenice += clauldetty
+  println(berrenice)
+  println("")
+  println(bernnadetthy)
+  bernnadetthy -= josias
+  println(bernnadetthy)
+  */
+    
+ // Condições if..else
+ 
+ // se... senão
+ // 
+ // estrutura:
+ // 
+ // if..else simples
+ // 
+ // if(condição){
+ // ação
+ // }else{
+ // ação
+ // }
+ /*   
+ var interruptor = false
+ 
+ if(interruptor == true){
+     println("Luz acesa")
+ }else{
+     println("Luz apagada")
+ }   
+ */
+ var fome = true
+ 
+ if(fome){
+     println("Alimente-se!")
+ }else{
+     println("Alimentou-se")
+ } 
+}
+//---------------------------------------------------------------------------
+
