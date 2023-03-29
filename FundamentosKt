@@ -503,3 +503,167 @@ fun main() {
  
 }
 //----------------------------------------------------------------
+
+fun main() {
+    
+  /*
+  // Operadores Relacionais
+  // 
+  // == -> igual a...
+  // != -> diferente de...
+  // !  -> negando valor
+  // >  -> maior que...
+  // <  -> menor que...
+  // >= -> maior ou igual a...
+  // <= -> menor ou igual a...
+  // 
+  // 
+  // ++ -> adiciona 1 a um valor
+  // -- -> sudtrai 1 de um valor
+  // += -> adicina um determinado valor a um valor
+  // -= -> subtrai um determinado valor de um valor
+  
+  var clauldetty = 50
+  var josias = 30
+  var berrenice = 90
+  var bernnadetthy = 80
+  
+  println(clauldetty)
+  clauldetty++
+  println(clauldetty)
+  println("")
+  println(josias)
+  josias--
+  println(josias)
+  println("")
+  println(berrenice)
+  berrenice += clauldetty
+  println(berrenice)
+  println("")
+  println(bernnadetthy)
+  bernnadetthy -= josias
+  println(bernnadetthy)
+  */
+    
+ // Condições if..else
+ 
+ // se... senão
+ // 
+ // estrutura:
+ // 
+ // if..else simples
+ // 
+ // if(condição){
+ // ação
+ // }else{
+ // ação
+ // }
+ /*   
+ var interruptor = false
+ 
+ if(interruptor == true){
+     println("Luz acesa")
+ }else{
+     println("Luz apagada")
+ }   
+ */
+ /*
+ var fome = true
+ 
+ if(fome){
+     println("Alimente-se!")
+ }else{
+     println("Alimentou-se")
+ */    
+ /* 
+ var senha = "azeitona"
+    
+ if(senha == "azeitona"){
+     println("Bem-Vindo Sr Stark")
+ }else{
+     println("Senha Incorreta, Tente Novamente")
+ }
+ */
+ /*
+ 
+ // if..else composto
+ // 
+ // com o if..else composto, somos permitidos, comparar mais de duas condiçõe (o simples
+ // e o else), através do 'else if'
+ // 
+ 
+ var coracoes = 5
+ if(coracoes >= 5){
+     println("Você está muito saudável! Parabés")
+ }else if(coracoes == 4){
+     println("Você ta de boa")
+ }else if(coracoes == 3){
+     println("Cuidado com a saúde, durma melhor")
+ }else if(coracoes == 2){
+     println("Vá se tratar, você não está bem...")
+ }else if(coracoes == 1){
+     println("Estado crítico!!!!!")
+ }else{
+     println("Novo reforço do Vasco")
+ }
+ */
+ /*
+ // 1 - faça um progama usando duas variaveis que representem cada uma, um número
+ // ele(progama) deve verificar qual dos dois é o maior número e imprimi-lo no console
+ 
+ //Correção:
+ 
+ var schweinsteiger = 7
+ var khedira = 10
+ if(schweinsteiger > khedira){
+     println(schweinsteiger)
+ }else if(schweinsteiger < khedira){
+     println(khedira)
+ }else{
+     println("$schweinsteiger e $khedira são iguais")
+ }
+ */
+ 
+ // 2 - faça um programa que verifique se o valor de uma variável é
+ // maior, igual, ou menor que 0 (positivo ou negativo, ou nenhum dos dois)
+ 
+ //Correção:  
+ 
+ /*
+ var kroos = 20
+ if (kroos > 0){
+     println("Número positivo")
+ }else if(kroos < 0){
+     println("Número negativo")
+ }else{
+     println("Número igual a zero")
+ }
+ */   
+ 
+ //Atividade:
+ 
+ var senha = "não quero reprovar"
+ 
+ if(senha == "não quero reprovar"){
+     println("Bem-Vindo Sr Nerd")
+ }else{
+     println("Senha Incorreta")
+ }
+    
+ var prova = 10
+ if(prova >= 10){
+     println("Parabés, você é um aluno exemplar")
+ }else if(prova >= 8){
+     println("Você foi bem!")
+ }else if(prova >= 5 ){
+     println("Você está na média")
+  }else if(prova >= 1 ){
+     println("Você já foi melhor.")
+ }else{
+     println("Está precisando estudar mais, não é mesmo?")
+ }
+ 
+ 
+ 
+}
+//-------------------------------------------------------------------------------
