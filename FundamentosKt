@@ -649,7 +649,8 @@ fun main() {
  }else{
      println("Senha Incorreta")
  }
-    
+ 
+ /*
  var prova = 10
  if(prova >= 10){
      println("Parabés, você é um aluno exemplar")
@@ -662,8 +663,33 @@ fun main() {
  }else{
      println("Está precisando estudar mais, não é mesmo?")
  }
- 
+*/ 
  
  
 }
 //-------------------------------------------------------------------------------
+
+fun main(){
+
+ // Operadores Lógicos
+ // && -> e -> se todas as condições forem verdadeiras, o resultado será verdadeiro
+ // || -> ou -> se pelo menos uma cindição for verdadeira, o resultado
+ // será verdadeiro
+ // 
+ // Tabela Verdade
+ //
+ // &&
+ // VVV -> V
+ // VVF -> F
+ // FFF -> F
+ // FVF -> F
+ // FVV -> F
+ // VFV -> F
+ // 
+ // ||
+ // VV -> V
+ // VF -> V
+ // FV -> V
+ // FF -> F
+  
+}
