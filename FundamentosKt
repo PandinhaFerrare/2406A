@@ -731,7 +731,8 @@ fun main() {
        println(" Aproveite o show!!")
    }
    */
-   
+  
+  /*
   // Exercícios -> No metroidVania, para o Heroi ir para a tela de GameOver,
   // seus coraçõe precisam ser igual a zero e
   // suas vidas precisam ser menor ou igual a zero
@@ -742,12 +743,56 @@ fun main() {
   var Corações = 0
   var Vidas = 0
   
-  if(Corações <= 0 && Vidas <= 0){
+  if(Corações == 0 && Vidas <= 0){
       println("GameOver")
   }else{
       println("Você está vivo continue!")
   }
-  
+  */
    
 }
 //----------------------------------------------------------------------------------------
+
+fun main() {
+ 
+  // When - Quando
+  // 
+  // Comparação de quando um valor for igual a um determinado valor,
+  // uma determinada ação será executada
+  // 
+  //Estrutura do When
+  //
+  // var auxiliar = valor
+  // 
+  // when(auxiliar){
+  // valor -> {ação}
+  // valor -> {ação}
+  // valor -> {ação}
+  // valor -> {ação}
+  // valor -> {ação}
+  // else -> {ação}
+  // }
+  // será usado geralmente quando durante o programa o valor da váriável
+  // não for estático, ou seja, ele estiver mudando
+  // 
+  
+  var mes = 5
+  
+  when(mes){
+      1 -> {println("Lisboa")}
+      2 -> {println("Nova York")}
+      3 -> {println("Rio de Janeiro")}
+      4 -> {println("São Paulo")}
+      5 -> {println("Keylandia")}
+      6 -> {println("Miwaukee")}
+      7 -> {println("Barcelona")}
+      8 -> {println("Springfield")}
+      9 -> {println("Los Pollos Hermanos")}
+      10 -> {println("Elmore")}
+      11 -> {println("Toronto")}
+      12 -> {println("Seoul")}
+      else -> {println("Acordou")}
+  }
+  
+}
+//-------------------------------------------------------------------
