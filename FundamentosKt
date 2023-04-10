@@ -796,3 +796,26 @@ fun main() {
   
 }
 //-------------------------------------------------------------------
+
+fun main() {
+
+ */
+  
+  //Exercícios -> Escreva um programa em Kotlin que declare uma variável chamada
+  //"diaSemana" do tipo String, que represente um dia da semana. Em seguida, utilize a
+  //declaração "when" para exibir uma mensagem na tela informando se o dia da semana é
+  //um dia útil ou um final de semana.
+  
+ /*
+ var DiaSemana = "Sábado"
+    
+when(DiaSemana){
+  "Segunda-feira","Terça-feira","Quarta-feira","Quinta-feira",
+  "Sexta-feira" -> {println("É um dia útil, vai trabalhar")}  
+  "Sábado","Domingo" -> {println("Não é um dia útil, pode descansar, aproveite :)")}
+  else -> {println("Dia inexistente, dia inútil.")}
+
+}
+*/
+    
+}
