@@ -822,3 +822,75 @@ when(DiaSemana){
 
 
 //-----------------------------------------------------------------------------
+
+fun main() {
+    
+  // laços de reprtição - loops
+  //
+  // repeat - repita
+  // while - enquanto
+  // do..while - faça enquanto
+  // for - para
+  //
+  //repeat - repita
+  //vai repetir uma determinada ação uma determinada quantidade de vezes
+  //
+  //Estrutura do repeat
+  //
+  // repeat(númeroVezes){
+  // ação
+  // }
+  /*
+  repeat(8){
+      println("Isso é um teste, testando, testando")
+  }
+  */
+    
+  //Exercício -> faça um programa com auxilio de uma variavel contador, no qual nela será acresentado 1 a cada repetição,
+  //até que dê a quantidade de vezes decidida
+  /*
+  var Alegria = 0
+  repeat(6){
+      println(Alegria++)     
+  }
+  */
+  //Laço while - enquanto
+  //
+  // enquanto uma condição for verdadeira, uma determinada ação estará sendo executada
+  // Estrutura do while
+  // 
+  // while(condição){
+  // ação
+  // }
+  /*
+  var contador = 0
+  while(contador < 10){
+      println(contador++)
+  }
+  */
+    
+ //Exercício -> Simular a bateria de celular
+ // faça um programa com while que mostre s bateria 100% diminuindo.
+ // Quando ela chegar no 15, deve mostrar a mensagem pedindo para
+ // conectar o caregador, e quando chegar a 0, deve mostrar a mensagem
+ // aparelho desligado
+ 
+ var bateria = 0
+ while(bateria > 0){
+     println(bateria--)
+ }else if(bateria == 15){
+     println("Seu celular está acabando a bateria!")
+ }else if(bareteria == 0){
+     println("Seu celular descaregou!")
+ }
+    
+    
+    
+    
+    
+    
+    
+    
+  
+}
+//---------------------------------------------------
