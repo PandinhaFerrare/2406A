@@ -875,22 +875,18 @@ fun main() {
  // conectar o caregador, e quando chegar a 0, deve mostrar a mensagem
  // aparelho desligado
  
- var bateria = 0
- while(bateria > 0){
-     println(bateria--)
- }else if(bateria == 15){
-     println("Seu celular está acabando a bateria!")
- }else if(bareteria == 0){
-     println("Seu celular descaregou!")
+  var bateria = 100
+    
+ while(bateria >= 0){
+     println("$bateria%")
+ 
+ when(bateria){
+     15 -> {println("Aparelho descarregando, conecte no carregador!")}
+     0 -> {println("Aparelho Desligando!")}
+ }
+ bateria--
+     
  }
     
-    
-    
-    
-    
-    
-    
-    
-  
 }
-//---------------------------------------------------
+//-----------------------------------------------------------------
