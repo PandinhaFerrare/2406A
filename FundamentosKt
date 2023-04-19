@@ -924,8 +924,48 @@ fun main() {
      println("1 pneu")
  }
  */
- // Exercício -> Faça uma tabuada de um número escolhido,
+// Exercício -> Faça uma tabuada de um número escolhido,
 // utilizando o laço for
 // em excessão as tabuadas do 0, 1, e 2
 
 //----------------------------------------------------------
+
+fun main() {
+// Exercício -> Faça uma tabuada de um número escolhido,
+// utilizando o laço for
+// em excessão as tabuadas do 0, 1, e 2
+/*
+for(calc in 0..10){
+    println(9 * calc)
+}
+*/   
+
+// Collections
+// 
+// intervalos, listas, arrays, vetores etc
+
+//tipos de listas
+/*
+var list1 = listOf("tamanduá", 0, 0.1, true)
+
+//Propriedades collections
+println(list1) //exibir a lista
+println(list1.size) // retornar o tamanho da lista
+println(list1.lastIndex) //retornar o último index
+println(list1[2]) // exibir o valor de um determinado index
+println(list1.contains("tamanduá")) //compara se existe um determinado valor dentro da lista
+println(list1.indexOf(0)) // indica o index de um determinado valor
+println(list1.lastIndexOf(0.1)) //indica o último index de um determinado valor
+println(list1.first()) //o valor do primeiro index
+println(list1.last()) //o valor do último index
+println(list1.isEmpty()) //comparar se a lista está vazia
+
+//<tags>
+var list2 = listOf("LeBron Jemes","Stephen Curry", "Michael Jordan", "Perna Longa", "Klay Thompson")
+// lista acima especifica o tipo de dedos que vai ser guardado
+// 
+// Obs. listOf() -> imutávael
+*/
+
+}
+//--------------------------------------------------------------------
