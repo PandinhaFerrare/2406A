@@ -1012,3 +1012,129 @@ fun main() {
   
 }
 //---------------------------------------------------------------------
+
+fun main() {
+   
+    // Obs. listOf() -> imutávael    
+    // 
+    // mutableListOf() --> armazena qualquer tipo de valores conjuntos
+    // mutableListOf()<tipoDeValor> -> armazena valores especificos de seu tipo
+    /*
+    var comida = mutableListOf<String>("Strogonoff", "Patê de Frango", "Lasanha", "Feijoada")
+    
+    println(comida)
+    
+    // Propriedades
+    // 
+    comida.add("Macarrão") //adiciona um valor a lista
+    println(comida)
+    comida.add(0, "Cuscuz") //adiciona um valor a um index em específico na lista
+    println(comida)
+    comida.remove("Patê de Frango") //remove um valor em específico da lista
+    println(comida)
+    comida.removeAt(0) // remove um valor de um index em específico
+    println(comida)
+    comida.set(2, "Pastel de Carne Seca") // substtitui um valor pelo seu index
+    println(comida)
+    comida.clear() // remover todos os valores da lista
+    println(comida)
+    */
+    // Exercício -> A cada mês do ano, em uma turma de 5 alunos, entra um aluno novo
+    // .Crie a lista inicial de alunos da turma
+    // .a cada mes adicione um novo aluno (em linhas diferentes)
+    // .e 2 meses do ano, 2 alunos foram transfaridos
+    // da turma (dica:em um meses diferentes)
+    // .e em 2 meses do ano, 2 alunos foram substituidos por
+    // outros dois alunos(dica: substituidos em um meses diferentes)
+    // 
+    // Exiba a lista de alunos respectiva de cada mes do ano
+    // dica(interpretação de texto)
+ /*
+    var alunos = mutableListOf<String>("Ester", "Rayssa", "Rodrigo", "Ludmila", "Esthefany")
+    println("Janeiro/Turma inicial:")
+    println(alunos)
+    
+    alunos.add("Lucas")
+    println("Janeiro:")
+    println(alunos)
+    
+    alunos.add("Ana")
+    println("Fevereiro:")
+    println(alunos)
+    
+    alunos.set(4,"Maria Eduarda")
+    println("Março:")
+    println(alunos)
+ 
+    alunos.add("Joaquim")
+    println("Março:")
+    println(alunos)
+ 
+    alunos.add("Lara")
+    println("Abril:")
+    println(alunos)
+ 
+    alunos.set(3,"Henrique")
+    println("Abril:")
+    println(alunos)
+ 
+    alunos.add("Matheus")
+    println("Maio:")
+    println(alunos)
+ 
+    alunos.add("Hélio")
+    println("Junho:")
+    println(alunos)
+ 
+    alunos.add("João")
+    println("Julho:")
+    println(alunos)
+ 
+    alunos.add("Emily")
+    println("Agosto:")
+    println(alunos)
+ 
+    alunos.remove("Henrique")
+    println("Agosto:")
+    println(alunos)
+ 
+    alunos.add("Junior")
+    println("Setembro:")
+    println(alunos)
+ 
+    alunos.remove("Rayssa")
+    println("Outubro:")
+    println(alunos)
+ 
+    alunos.add("Peterson")
+    println("Outubro:")
+    println(alunos)
+ 
+    alunos.add("Beatriz")
+    println("Novembro:")
+    println(alunos)
+ 
+    alunos.add("Ramon")
+    println("Dezembro:")
+    println(alunos)
+ */
+ 
+ //POO
+    //
+    // Programação Orientada a Obejetos
+    // 
+    // Objetivo: Simular atividades e situações do mundo real
+    // 
+    // Objeto - elementos que podem interagir com um sistema   Ex.: Pé
+    // 
+    // Classe - Denominação de um determinado objeto       Ex.: Mebros do Corpo
+    // 
+    // Atributos - características, propriedades, parâmetros    Ex.: Tamanho
+    // 
+    // Métodos - Atividades, ações, que o objeto pode realizar  Ex.: Chutar
+    // 
+    // 
+    // Herança - atríbutos de um objeto que são HERDADOS de uma classe
+ 
+}
+//---------------------------------------------------------------------
