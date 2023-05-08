@@ -1182,3 +1182,63 @@ class Pessoa {
 }
 
 //------------------------------------------------------------------------
+
+fun main() {
+   /*
+    var pessoa1 = Pessoa() //institucionamos um objeto
+    
+    println(pessoa1.idioma) //Exibir um atributo de um objeto
+    println(pessoa1.nome)
+    pessoa1.nome = "Edinaldo Pereira" //alterar um valor de um atributo de um objeto
+    println(pessoa1.nome + ", "+pessoa1.idade)
+ 
+    // Exercício -> Faça um apresentação sua utilizando a classe Pessoa() já criada e utilizando pelo
+    // menos, todos os atributos que existem na classe
+    
+    
+    var pessoa2 = Pessoa()
+    pessoa2.nome = "Larissa"
+    pessoa2.idade = 14
+    pessoa2.altura = 1.58
+    pessoa2.idioma = "Português"
+    pessoa2.profissao = "Estudante/Desocupada"
+    println("Nome:")
+    println(pessoa2.nome)
+    println("Idade:")
+    println(pessoa2.idade)
+    println("Altura:")
+    println(pessoa2.altura)
+    println("Idioma:")
+    println(pessoa2.idioma)
+    println("Profissao:")
+    println(pessoa2.profissao)
+    */
+    
+    var pessoa3 = Pessoa()
+    var animal1 = Animal("Cachorro", "Pinscher", 7, "chinelo", "grande")
+    
+    
+    
+    
+    
+}
+
+class Animal(var especie: String, //atributos que todo animal deve ter
+             var raca: String,
+             var idade: Int,
+             var dieta: String,
+             var porte: String){
+
+}
+
+class Pessoa {
+    //Atributos que toda pessoa pode ter   
+    var nome = ""
+    var idade = 0
+    var altura = 0.0
+    var idioma = ""
+    var profissao = ""
+   
+}
+//---------------------------------------------------------
+
