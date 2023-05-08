@@ -1216,6 +1216,8 @@ fun main() {
     
     var pessoa3 = Pessoa()
     var animal1 = Animal("Cachorro", "Pinscher", 7, "chinelo", "grande")
+    // Exercício -> Faça o catálogo(fictício) de animais que estão morando no zoológico de SP
+    // com no mínimo 20 animais, sem repetição de raça
     
     
     
