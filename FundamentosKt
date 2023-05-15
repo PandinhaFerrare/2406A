@@ -1244,3 +1244,62 @@ class Pessoa {
 }
 //---------------------------------------------------------
 
+fun main() {
+   
+    /*
+    var pessoa3 = Pessoa()
+    var animal1 = Animal("Cachorro", "Pinscher", 7, "chinelo", "grande")
+    // Exercício -> Faça o catálogo(fictício) de animais que estão morando no zoológico de SP
+    // com no mínimo 20 animais, sem repetição de raça
+    */
+    /*
+    var animal = Animal("cachorro", "Shih-tzu", 8, "Chinelo", "pequeno")
+    
+    animal.comer(animal.dieta)
+    */
+    var animal = Animal("Golfinho", "Boto", 50, "Sardinha", "pequeno")
+    
+    animal.correr(120.0, "Acre")
+    
+}
+
+class Animal(var especie: String, //atributos que todo animal deve ter
+             var raca: String,
+             var idade: Int,
+             var dieta: String,
+             var porte: String){
+
+   // Estrutura de um método:
+   // fun (nomeDoParâmetro: tipoDoParametro){
+   // ação
+   // } 
+    
+  fun comer(alimento: String){
+      println("$especie comendo $alimento")
+}  
+ 
+ fun correr(Velocidade: Double, lugar: String){
+     println("$especie correndo em uma velocidade de $velocidade km/h no $lugar")
+ }
+ 
+}
+
+class Pessoa {
+    //Atributos que toda pessoa pode ter   
+    var nome = ""
+    var idade = 0
+    var altura = 0.0
+    var idioma = ""
+    var profissao = ""
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+//-----------------------------------------------------------------
